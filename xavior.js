@@ -1666,7 +1666,7 @@ break
            
 	    case 'ytmp3': case 'ytaudio': {
                 let { yta } = require('./lib/y2mate')
-                if (!text) throw `Contoh : ${prefix + command} https://hhhhh%27 128kbps`
+                if (!text) throw `Contoh : ${prefix + command} https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ%27 128kbps`
                 let quality = args[1] ? args[1] : '128kbps'
                 let media = await yta(text, quality)
                 if (media.filesize >= 100000) return m.reply('File Melebihi Batas '+util.format(media))
