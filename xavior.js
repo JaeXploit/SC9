@@ -534,16 +534,22 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             break
 	    case 'donasi': case 'sewabot': case 'sewa': case 'buypremium': case 'donate': {
   goblok = fs.readFileSync('./video/ga.jpg')
-                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+                xavior.sendMessage(m.chat, { image: goblok, caption: `┌──⭓ *Sewa Bot*
+
+
 │⭔ 1 Minggu :10k
 │⭔ 1 Bulan :15k
 │⭔ Permanen :20k
 └───────⭓
-┌──⭓ *Jadi Bot*
+┌──⭓ *Jadi Bot*
+
+
 │⭔ Jasa Jadi Bot: 30k
 │⭔ Jadi Owner AzzBot: 15k
 └───────⭓
-┌──⭓ *Harga Sc Bot Wa*
+┌──⭓ *Harga Sc Bot Wa*
+
+
 │⭔ Versi 1 :20k
 │⭔ Versi 2 :25k
 │⭔ Free :Di Yt MBY•OFFICIAL
@@ -552,7 +558,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             case 'subscribe':{
             smeme = fs.readFileSync('./video/bro.mp4')
 
-xavior.sendMessage(m.chat, { video: smeme, mimetype: 'video/mp4', fileName: `subrek.mp4`, caption: `Betewe Lu Dah Janji Mau Subscribe\n\nJangan PHP Yah 😊\n\nSubscibe:https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g`},{ quoted: m })} break
+xavior.sendMessage(m.chat, { video: smeme, mimetype: 'video/mp4', fileName: `subrek.mp4`, caption: `Betewe Lu Dah Janji Mau Subscribe\n\nJangan PHP Yah 😊\n\nSubscibe:https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ`},{ quoted: m })} break
 
 case 'runtime': { m.reply('4 days, 9 hours, 26 minutes')}
           break
@@ -1241,7 +1247,7 @@ break
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -1280,7 +1286,7 @@ break
 		    let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -2936,7 +2942,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
             break
 
             
-            case 'okay': { m.reply('Subrek lah Yt MBY•OFFICIAL')} break
+            case 'okay': { m.reply('Subrek lah https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ')} break
             
              case 'menu': {
             anu = `── *Welcome* ──
@@ -2946,7 +2952,7 @@ Ketik (.menu) Untuk Mengakses
 Mau Script? Bisa Chat Owner
 Thanks Sudah Menggunakan
 AzzBot-MD Jangan Lupa Subscribe
-Chanel : https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g
+Chanel : https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ
 Nih Musik Buat Menghibur
 ───────⭓`
             let btn = [{
@@ -3308,7 +3314,7 @@ break
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -3375,7 +3381,7 @@ break
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -3430,7 +3436,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -3491,7 +3497,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -3547,7 +3553,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -3611,7 +3617,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -3689,7 +3695,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -3748,7 +3754,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -3804,7 +3810,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -3865,7 +3871,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -3942,7 +3948,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -4007,7 +4013,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -4064,7 +4070,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -4119,7 +4125,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -4169,7 +4175,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -4220,7 +4226,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -4278,7 +4284,7 @@ case 'webzone': {
                  let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
@@ -4339,7 +4345,7 @@ case 'webzone': {
                 let btn = [{
                                 urlButton: {
                                     displayText: 'Script',
-                                    url: 'https://youtube.com/channel/UCmUhiytK9WMYaOFgdOho_2g'
+                                    url: 'https://youtube.com/channel/UCrlzx0kvauCtbOJvwnkfwaQ'
                                 }
                             }, {
                                 callButton: {
